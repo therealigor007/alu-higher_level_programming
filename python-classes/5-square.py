@@ -4,10 +4,10 @@
 
 class Square:
     """A class that defines a square with printing capability."""
- 
+
     def __init__(self, size=0):
         """Initialize a square with size validation.
-   
+
         Args:
             size (int): The size of the square.
         """
@@ -28,7 +28,7 @@ class Square:
 
         Args:
             value (int): The size of the square.
-       
+
         Raises:
             TypeError: If value is not an integer.
             ValueError: If value is less than 0.
