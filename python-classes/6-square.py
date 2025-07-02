@@ -7,7 +7,7 @@ class Square:
 
     def __init__(self, size=0, position=(0, 0)):
         """Initialize a square with size and position validation.
-  
+ 
         Args:
             size (int): The size of the square.
             position (tuple): The position of the square.
@@ -30,7 +30,7 @@ class Square:
 
         Args:
             value (int): The size of the square.
-     
+ 
         Raises:
             TypeError: If value is not an integer.
             ValueError: If value is less than 0.
@@ -55,7 +55,7 @@ class Square:
         """Set the position of the square.
 
         Args:
-            value (tuple): The position of the square.    
+           value (tuple): The position of the square.    
         Raises:
             TypeError: If value is not a tuple of 2 positive integers.
         """
