@@ -4,10 +4,10 @@
 
 class Square:
     """A class that defines a square with position."""
- 
+
     def __init__(self, size=0, position=(0, 0)):
         """Initialize a square with size and position validation.
-     
+   
         Args:
             size (int): The size of the square.
             position (tuple): The position of the square.
@@ -27,10 +27,10 @@ class Square:
     @size.setter
     def size(self, value):
         """Set the size of the square.
- 
+
         Args:
             value (int): The size of the square.
-      
+     
         Raises:
             TypeError: If value is not an integer.
             ValueError: If value is less than 0.
@@ -53,10 +53,10 @@ class Square:
     @position.setter
     def position(self, value):
         """Set the position of the square.
- 
+
         Args:
             value (tuple): The position of the square.
-     
+    
         Raises:
             TypeError: If value is not a tuple of 2 positive integers.
         """
@@ -67,7 +67,7 @@ class Square:
 
     def area(self):
         """Calculate and return the area of the square.
-   
+  
         Returns:
             int: The area of the square.
         """
